@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Jogos que Ensinam</title>
+</head>
+
+<body>
+    <header class="full">
+        <main>
+            <div id="header-1">
+                <h1>Jogos que Ensinam</h1>
+            </div>
+            <div id="redes-sociais">
+                <ul>
+                    <li><a href="https://pt-br.facebook.com/" target="_blank">F</a></li>
+                    <li><a href="https://www.instagram.com/eu._clides/" target="_blank">I</a></li>
+                    <li><a href="https://twitter.com/Yugizzzzzz" target="_blank">T</a></li>
+                    <li><a href="https://www.google.com/gmail/" target="_blank">E</a></li>
+                </ul>
+            </div>
+        </main>
+    </header>
+
+    <div id="texto">
+        <main>
+            <h2 id="frase">Brincar é muito mais que se divertir, é exercitar a imaginação, é crescer, é se desenvolver!</h2>
+            <h2 id="desc">Descrição do Projeto</h2>
+            <p>
+                O nosso site tem como objetivo divulgar jogos (dos mais diversos tipos) que ajudam a desenvolver o
+                aprendizado de crianças e adolescentes. Utililizando nossa plataforma, o usuário (diretor ou
+                professor
+                de uma escola) consegue ter uma ideia de quais jogos seriam ideais para aprimorar o desenvolvimento
+                de
+                suas turmas. É importante ressaltar que, mesmo pronto para uso, nosso projeto ainda está em fase de
+                desenvolvimento. Nossa equipe pretende, futuramente, catalogar mais jogos, visando a ampliação das
+                possibilidades de aplicação de nossa plataforma nas instituições de ensino.
+            </p>
+        </main>
+    </div>
+
+    <div class="full" id="slider">
+        <main>
+            <h2>Exemplos de Jogos</h2>
+            <div class="slider-principal">
+                <div class="bloco-slider">
+                    <img id="imagem" src="./img/cubo-magico.jpg" alt="">
+                    <label for="#imagem">Cubo Mágico</label>
+                </div>
+                <div class="bloco-slider">
+                    <img src="./img/mancala.jpg" alt="">
+                    <label for="#imagem">Mancala</label>
+                </div>
+                <div class="bloco-slider">
+                    <img src="./img/lego.jpg" alt="">
+                    <label for="#imagem">Lego</label>
+                </div>
+                <div class="bloco-slider">
+                    <img src="./img/sudoku.jpg" alt="">
+                    <label for="#imagem">Sudoku</label>
+                </div>
+                <div class="bloco-slider">
+                    <img src="./img/origami.jpg" alt="">
+                    <label for="#imagem">Origami</label>
+                </div>
+                <div class="bloco-slider">
+                    <img src="./img/rpg-mesa.jpg" alt="">
+                    <label for="#imagem">RPG de mesa</label>
+                </div>
+                <div class="bloco-slider">
+                    <img src="./img/bonecos-bonecas.jpg" alt="">
+                    <label for="#imagem">Bonecos e Bonecas</label>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="full" id="form-jogos">
+        <main>
+            <h2 id="titulo-formulario">Indique a situação da sua turma</h2><br>
+            <form name="dificuldade" method="POST" action="page2.php">
+                <fieldset class="grupo">
+                    <label for="logica">
+                        <h3><strong>Lógica</strong></h3>
+                    </label><br>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="logica" value="bom">Bom
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="logica" value="medio" checked>Médio
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="logica" value="ruim">Ruim
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="grupo">
+                    <label for="criatividade">
+                        <h3><strong>Criatividade</strong></h3>
+                    </label><br>
+                    <ul>
+                        
+                        <li>
+                            <label>
+                                <input type="radio" name="criatividade" value="bom">Bom
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="criatividade" value="medio" checked>Médio
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="criatividade" value="ruim">Ruim
+                            </label>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="grupo">
+                    <label for="interpretacao">
+                        <h3><strong>Interpretação</strong></h3>
+                    </label><br>
+                    <ul>
+                        
+                        <li>
+                            <label>
+                                <input type="radio" name="interpretacao" value="bom">Bom
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="interpretacao" value="medio" checked>Médio
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="interpretacao" value="ruim">Ruim
+                            </label>
+                        </li>
+                        <li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="grupo">
+                    <label for="concentracao">
+                        <h3><strong>Concentração</strong></h3>
+                    </label><br>
+                    <ul>
+                        
+                        <li>
+                            <label>
+                                <input type="radio" name="concentracao" value="bom">Bom
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="concentracao" value="medio" checked>Médio
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="concentracao" value="ruim">Ruim
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="grupo">
+                    <label for="sociabilidade">
+                        <h3><strong>Sociabilidade</strong></h3>
+                    </label><br>
+                    <ul>
+                        
+                        <li>
+                            <label>
+                                <input type="radio" name="sociabilidade" value="bom">Bom
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="sociabilidade" value="medio" checked>Médio
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="sociabilidade" value="ruim">Ruim
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <button type="submit" name="enviar" id="botao">Enviar</button>
+            </form>
+        </main>
+    </div>
+
+    <footer class="full">
+        <div id="footer-1">
+            <main>
+                <div id="atribuicoes">
+                    <h2>Atribuições</h2>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/34879918@N04/27735788142" target="_blank">"cubo magico -
+                            carol vidal"</a><span> by <a href="https://www.flickr.com/photos/34879918@N04"
+                                target="_blank">Sesc em São
+                                Paulo</a></span> is licensed under <a
+                            href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC
+                            BY-NC-ND 2.0</a>
+                    </p>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/7776449@N06/8479297425" target="_blank">"Mancala /
+                            Awale"</a><span> by <a href="https://www.flickr.com/photos/7776449@N06"
+                                target="_blank">elPadawan</a></span>
+                        is licensed under <a
+                            href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC
+                            BY-SA 2.0</a>
+                    </p>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/47247806@N00/8275567880" target="_blank">"Lego
+                            10222"</a><span>
+                            by <a href="https://www.flickr.com/photos/47247806@N00"
+                                target="_blank">kebnekaise</a></span> is
+                        licensed under <a
+                            href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC
+                            BY-NC-SA 2.0</a>
+                    </p>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/16481684@N00/3060070482" target="_blank">"Sudoku Jigsaw
+                            Puzzle"</a><span> by <a href="https://www.flickr.com/photos/16481684@N00"
+                                target="_blank">r.j.wagner</a></span>
+                        is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC BY
+                            2.0</a>
+                    </p>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/87857621@N00/3953861947"
+                            target="_blank">"Origami"</a><span>
+                            by <a href="https://www.flickr.com/photos/87857621@N00" target="_blank">caribb</a></span> is
+                        licensed under <a
+                            href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC
+                            BY-NC-ND 2.0</a>
+                    </p>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/13602072@N03/16801949774" target="_blank">"Ratos vs.
+                            aranha"</a><span> by <a href="https://www.flickr.com/photos/13602072@N03"
+                                target="_blank">FaruSantos</a></span>
+                        is licensed under <a
+                            href="https://creativecommons.org/licenses/by-sa/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC
+                            BY-SA 2.0</a>
+                    </p>
+
+                    <p style="font-size: 0.9rem;font-style: italic;">
+                        <a href="https://www.flickr.com/photos/58578311@N00/459165342" target="_blank">"workshop
+                            Penamacor
+                            Bonecos de
+                            Pano"</a><span> by <a href="https://www.flickr.com/photos/58578311@N00"
+                                target="_blank">hobby-ir</a></span>
+                        is licensed under <a
+                            href="https://creativecommons.org/licenses/by-nd/2.0/?ref=ccsearch&atype=html"
+                            target="_blank" style="margin-right: 5px;">CC
+                            BY-ND 2.0</a>
+                    </p>
+                </div>
+            </main>
+        </div>
+        <div id="footer-2">
+            <main>
+                <h1>Jogos que Ensinam</h1>
+                <div id="redes-sociais">
+                    <ul>
+                        <li><a href="https://pt-br.facebook.com/" target="_blank">F</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">I</a></li>
+                        <li><a href="http://twitter.com/" target="_blank">T</a></li>
+                        <li><a href="https://www.google.com/gmail/" target="_blank">E</a></li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>

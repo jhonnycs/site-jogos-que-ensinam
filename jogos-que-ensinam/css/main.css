@@ -1,0 +1,193 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+main, .content {
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+}
+
+header {
+    background-image: url("../img/purple-asfalt.png");
+    height: 5em;
+    margin-bottom: 3em;
+}
+
+.full {
+    width: 100%;
+}
+
+#header-1 {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+}
+
+#header-1 h1 {
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    margin: 0;
+    margin: 0.6em 0;
+}
+
+#redes-sociais{
+    float: right;
+    width: 25%;
+}
+
+#redes-sociais ul {
+    margin: 0;
+}
+
+#redes-sociais ul li {
+    display: inline-block;
+    color: white;   
+    height: 2em;
+    width: 2em;
+    margin: 1.3em 0.4em;
+}
+
+#redes-sociais a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding: 0.6em 0.4em;
+}
+
+.slider-principal {
+    margin-bottom: 3em;
+}
+
+.bloco-slider {
+    padding-left: 1em;
+    text-align: center;
+}
+
+.bloco-slider label {
+    font-size: 20px;
+    float: left;    
+}
+
+#form-jogos main{
+    /* background-image: url("../img/gray-asfalt.png"); */
+    background-color: rgba(220, 220, 220, 0.6);
+    margin-bottom: 6em;
+    border-radius: 10px 0px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+#form-jogos #titulo-formulario {
+    text-align: center;
+    margin: 0;
+    padding-top: 2em;
+}
+
+.grupo{
+    display: inline-block;
+    margin-left: 6.4em;
+    width: 20%;
+    border: 0;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+.grupo h3 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+
+.grupo ul {
+    padding: 0;
+}
+
+.grupo li{
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+.grupo input, ul li label {
+    cursor: pointer;
+}
+
+#botao {
+    background-color: #672b8a;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    margin-left: 45%;
+    margin-bottom: 3em;
+}
+
+#botao:hover {
+    transition: 300ms;
+    background-color: #d900ff;
+    cursor: pointer;
+    
+}
+
+footer {
+    background-image: url("../img/darkblue-asfalt.png");
+    position: relative;
+}
+
+#atribuicoes {
+    width: 40%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+#atribuicoes p, a {
+    margin: 0;
+    margin-bottom: 0.6em;
+    font-size: 0.8em;
+}
+
+#atribuicoes a {
+    color: rgb(185, 185, 185);
+}
+
+#footer-2 {
+    background-image: url("../img/black-asfalt.png");
+    height: 5em;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#footer-2 h1{
+    color: white;
+    display: inline-block;
+    margin-top: 0.6em;
+    width: 50%;
+}
+
+.games {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#texto{
+    margin-bottom: 35px;
+}
+
+#texto p{
+    font-style: italic;
+}
+
+#desc {
+    font-size: 21px;
+}
+
+#frase {
+    font-style: italic;
+    font-size: 28px;
+}
